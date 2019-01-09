@@ -8,4 +8,25 @@ class Post extends Model
 {
     //pimary key
     public $primaryKey = 'id';
+
+    public function category(){
+        return $this->hasOne(Category::class);
+    }
+    // public function comments(){
+    //     return $this->hasMany(Comment::class);
+    // }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+    public function comments()
+    {
+        return $this->hasMany(Comment::class);
+    }
+  
+    
+
+
+    
 }

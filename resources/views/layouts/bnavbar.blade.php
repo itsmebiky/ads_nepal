@@ -101,6 +101,7 @@
                         </div>
                     </li>
                     
+                    
                 @endguest
             </ul>
         </div>
@@ -129,6 +130,28 @@
               </div>
             </div> 
 </li>
+<li class="active">
+    <button class="btn btn-primary adminnav my-1" type="button" data-toggle="collapse" data-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+    Category<span><i class="fas fa-dropdown"></i></span>
+    </button>
+        <div class="collapse" id="collapseExample1">
+          <div>
+          <a href="/admin/backend/category/create" class="text-justify my-1">Create Category</a>
+        <a href="/admin/backend/category/" class="text-justify my-1">View Category</a>
+          </div>
+        </div> 
+</li>
+<li class="active">
+        <button class="btn btn-primary adminnav my-1" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+        Ads-Category<span><i class="fas fa-dropdown"></i></span>
+        </button>
+            <div class="collapse" id="collapseExample2">
+              <div>
+              <a href="/admin/backend/adscategory/create" class="text-justify my-1">Create Category</a>
+            <a href="/admin/backend/adscategory/" class="text-justify my-1">View Category</a>
+              </div>
+            </div> 
+    </li>
 <li>         
 <a href="/aboutus">About</a>     
 </li>     

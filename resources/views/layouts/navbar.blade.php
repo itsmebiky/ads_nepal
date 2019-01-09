@@ -1,65 +1,56 @@
-<!--navbar/topbar-->
-<nav class="navbar navbar-expand  fixed-top" id="navbarcollapse">
-      <div class="col-md-1">
-        <button type="button" id="sidebarCollapse" class="btn btn-info">
-                <i class="fas fa-align-left"></i>
-            
-        </button>
-      </div>
-            {{-- <div>
-                <h3 id="logo1"><a href="#">Ad Agency Advertisement House</a></h3>
-            </div> --}}
-    {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button> --}}
-    <div class="col-md-4">
-      <div class="container h-100">
-        <div class="d-flex justify-content-center h-100">
-          <div class="searchbar">
-            <input class="search_input" type="text" name="" placeholder="Search...">
-            <a href="#" class="search_icon"><i class="fas fa-search"></i></a>
+
+      <div class="site-navbar-wrap js-site-navbar bg-white">
+      
+          <div class="container">
+            <div class="site-navbar bg-light">
+              <div class="py-1">
+                <div class="row align-items-center">
+                  <div class="col-2">
+                    <h2 class="mb-0 site-logo"><a href="/">Ads <strong class="font-weight-bold">Finder</strong> </a></h2>
+                  </div>
+                  <div class="col-10">
+                    <nav class="site-navigation text-right" role="navigation">
+                      <div class="container">
+                        <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3 "></div>
+    
+                        <ul class="site-menu d-none d-lg-block">
+                          <li><a href="/">Home</a></li>
+                         
+                          <li><a href="/contactus">Contact</a></li>
+                          <li class="has-children">
+                              <a class="dropdown-toggle" href="#">Categories</a>
+                              <ul class="dropdown">
+                                
+                                <li><a href="#">Category</a></li>
+                                <li><a href="#">Browse Candidates</a></li>
+                                <li><a href="#">Post a Job</a></li>
+                                <li><a href="#">Employeer Profile</a></li>
+                              </ul>
+                            </li>
+                            <li>
+                                <a href="/logout"><button btn btn-primary>Logout</button></a>
+                            </li>
+                          {{-- <a href="#"><span class="bg-success text-white py-3 px-4 rounded">Find Now</span></a> --}}
+                         {{-- <li class="">
+                            <div class="dropdown">
+                                <button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Categories
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                  <a class="dropdown-item dropdown-toggle" href="#">Action</a>
+                                  <a class="dropdown-item" href="#">Another action</a>
+                                  <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                              </div>
+                         </li> --}}
+                        </ul>
+                      </div>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-7">
 
-    </div>
-  </nav>
-   
- <!-- Sidebar  -->
- <nav id="sidebar" class="backgroundsidebar">
-        <div class="sidebar-header">
-                <h3 id="logo"><a href="#">Ad Agency</a></h3>
-            </div>
-
-    <hr><hr>
-
-<ul class="list-unstyled">
-<li class="active">
-    <a href="/">Home</a>   
-</li>
-<li>         
-    <a href="/aboutus">About</a>     
-</li>     
-<li>         
-    <a href="#">Pages</a>             
-</li>     
-<li>
-    <a href="#">Portfolio</a>     
-</li>     
-<li>         
-    <a href="/contactus">Contact</a>     
-</li> 
-
-<li class="list-unstyled " style="color:white; font-size:12px; margin-left:0px; border:none;"><a href="http://bikash-adhikari.com.np">Copyright @ Bikash</a>
-</li>
-
-</ul>
-<!-- Copyright -->
-
-
- </nav>
         
-
-            
